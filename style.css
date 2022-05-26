@@ -1,0 +1,321 @@
+/* ----- RESETS ----- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+/* =====----- HEADER -----===== */
+
+/* ----- PRIMEIRA LINHA ----- */
+.div-first-line{
+    padding: 10px 0;
+    background-color: #e7e6e6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div2-first-line{
+    width: 980px;
+    display: flex;
+    justify-content: right;
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+
+/* ----- TAG HEADER ----- */
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 35, 35);
+    align-items: center;
+    flex-direction: column;
+    ;
+}
+
+/* ----- ESTILO DO MENU ----- */
+.menu-horizontal{
+    width: 980px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.item-menu{
+    display: inline-block;
+    color: #939393;
+    text-decoration: none;
+    padding: 20px 10px;
+    font-size: 15px;
+}
+
+.item-1-menu{
+    font-size: 25px;
+    color: #fdfdfd;
+}
+
+.item-2-menu{
+    font-size: 15px;
+    color: #fdfdfd;
+}
+
+.menu-horizontal li a:hover{
+    color: #fdfdfd;
+}
+
+/* =====----- PRIMEIRA SEÇÃO -----===== */
+.div-1-first-section{
+    background-color: #CCBAB626;
+    display: flex;
+    justify-content: center;
+}
+
+.right-img{
+    background-color: #ffe9e3;
+    width: 490px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-2-first-section{
+    background-color: #A3C7BD75;
+    display: flex;
+    justify-content: center;
+}
+
+.left-img{
+    background-color: #A3C7BD;
+    width: 490px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----- ESTILO DAS DIV'S AO LADO DAS FOTOS ----- */
+.right-img p:nth-child(1),
+.left-img p:nth-child(1){
+    font-size: 2rem;
+}
+
+.right-img p:nth-child(2),
+.left-img p:nth-child(2){
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    color: #313131;
+    font-weight: 800;
+}
+
+.right-img p:nth-child(4),
+.left-img p:nth-child(4){
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    color: #313131;
+    font-weight: 800;
+}
+
+.right-img p,
+.left-img p{
+    padding: 1.3rem 0;
+}
+
+.hr-right{
+    width: 60px;
+    border-top: 3px solid #000;
+}
+
+.hr-left{
+    width: 60px;
+    border-top: 3px solid #fff;
+}
+
+.left-img p:nth-child(1),
+.left-img p:nth-child(2),
+.left-img p:nth-child(4){
+    color: #fff;
+}
+
+/* =====----- SEGUNDA SEÇÃO -----===== */
+.second-section{
+    display: flex;
+    justify-content: center;
+}
+
+.container-second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paragraph-news,
+.paragraph-newsletter{
+    font-size: 2rem;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.images-models{
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-models > div{
+    width: 32%;
+}
+
+.images-models > div >img{
+    width: 100%;
+}
+
+.images-models-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-description-prize{
+    background-color: #e7e6e6;
+    text-align: center
+}
+
+.box-description-prize >p{
+    font-size: 1rem;
+    padding: 15px 0;
+}
+
+h4{
+    font-size: 1.2rem;
+    padding: 15px 0;
+    font-weight: 400;
+}
+
+.paragraph-newsletter p:nth-child(2){
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    color: #313131;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.forms{
+    width: 980px;
+    margin-bottom: 60px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    background-color: #e7e6e6;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #313131;
+    color: #e7e6e6;
+}
+
+/* =====----- TERCEIRA SEÇÃO -----===== */
+.third-section{
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+}
+
+.container-third-section{
+    width: 980px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-third-section > .acessories > img,
+.container-third-section > .winter > img{
+    display: flex;
+    width: 100%;
+    padding: 60px 30px;
+}
+
+.acessories,
+.winter{
+    width: 100%;
+    position: relative;
+}
+
+.paragraph-acessories{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    text-align: center;
+}
+
+.paragraph-winter{
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    text-align: center;
+}
+
+.paragraph-acessories p:nth-child(1),
+.paragraph-winter p:nth-child(1){
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    color: #e7e6e6;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.paragraph-acessories p:nth-child(2),
+.paragraph-winter p:nth-child(2){
+    font-size: 2.5rem;
+    color: #e7e6e6;
+    font-weight: 700;
+}
+
+/* =====----- QUARTA SEÇÃO -----===== */
+.fourth-section{
+    background-color: #e7e6e6;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container-fourth-section{
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-fourth-section h4,
+.container-fourth-section p{
+    color: #939393;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.fourth-section-part01 > h4{
+    font-size: 1.3rem;
+}
+
+.container-fourth-section p{
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* =====-----  RODAPÉ -----===== */
+footer{
+    background-color: #242323;
+    color: #e7e6e6;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1.7rem;
+    padding: 20px;
+}
